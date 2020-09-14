@@ -10,6 +10,7 @@ public class TagRepository {
     @PersistenceUnit(unitName = "imageHoster")
     private EntityManagerFactory emf;
 
+    //sample comment
     public Tag createTag(Tag tag) {
         EntityManager em = emf.createEntityManager();
         EntityTransaction transaction = em.getTransaction();
